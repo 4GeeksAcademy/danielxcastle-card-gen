@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: #0e7e12;
+  padding-top: 10rem;
+}
+
+.card {
+  width: 20rem;
+  flex-direction: column;
+  height: 30rem;
+  display: flex;
+  background-color: white;
+  margin: auto;
+}
+
+.suit {
+  font-size: 80px;
+  justify-content: end;
+}
+.number {
+  justify-content: center;
+
+  height: 15rem;
+  font-size: 150px;
+}
+#suit-top {
+  align-items: start;
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+}
+#suit-bottom {
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+}
