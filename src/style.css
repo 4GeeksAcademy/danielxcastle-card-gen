@@ -2,7 +2,7 @@
 
 body {
   background: #0e7e12;
-  padding-top: 10rem;
+  padding-top: 2rem;
 }
 
 .card {
@@ -35,4 +35,21 @@ body {
   display: flex;
   justify-content: start;
   padding-left: 20px;
+}
+#button {
+  border: 0px;
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  cursor: pointer;
+  background: #0e7e12;
+  padding: 8px;
+  padding-bottom: 8px 20px;
+  transition: all 400ms ease;
+}
+#button:hover {
+  padding: 8px 36px;
+  border-left: 3px solid #222;
+  border-right: 3px solid #222;
+  letter-spacing: 8px;
+  background: #0e7e12;
 }
