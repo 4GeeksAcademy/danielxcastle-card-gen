@@ -12,6 +12,7 @@ body {
   display: flex;
   background-color: white;
   margin: auto;
+  border-radius: 25px;
 }
 
 .suit {
